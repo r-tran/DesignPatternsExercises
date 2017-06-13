@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Strategy\DuckSim\Duck.cs" />
+    <Compile Include="Behavioral\Strategy\DuckSim\FlyBehaviors.cs" />
+    <Compile Include="Behavioral\Strategy\DuckSim\IFlyBehavior.cs" />
+    <Compile Include="Behavioral\Strategy\DuckSim\IQuackBehavior.cs" />
+    <Compile Include="Behavioral\Strategy\DuckSim\DuckTypes.cs" />
+    <Compile Include="Behavioral\Strategy\DuckSim\QuackBehaviors.cs" />
     <Compile Include="Creational\Singleton\President.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,7 +58,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\" />
     <Folder Include="Creational\Abstract Factory\" />
     <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\Factory\" />
