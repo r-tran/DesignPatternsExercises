@@ -44,6 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Observer\CurrentConditionsDisplay.cs" />
+    <Compile Include="Behavioral\Observer\ForecastDisplay.cs" />
+    <Compile Include="Behavioral\Observer\IDisplay.cs" />
+    <Compile Include="Behavioral\Observer\IWeatherObserver.cs" />
+    <Compile Include="Behavioral\Observer\IWeatherObservable.cs" />
+    <Compile Include="Behavioral\Observer\StatisticsDisplay.cs" />
+    <Compile Include="Behavioral\Observer\WeatherData.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\Duck.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\FlyBehaviors.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\IFlyBehavior.cs" />
