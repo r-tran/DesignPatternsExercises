@@ -60,6 +60,15 @@
     <Compile Include="Creational\Singleton\President.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Decorator\DarkRoast.cs" />
+    <Compile Include="Structural\Decorator\Espresso.cs" />
+    <Compile Include="Structural\Decorator\IBeverage.cs" />
+    <Compile Include="Structural\Decorator\ICondimentDecorator.cs" />
+    <Compile Include="Structural\Decorator\Milk.cs" />
+    <Compile Include="Structural\Decorator\Mocha.cs" />
+    <Compile Include="Structural\Decorator\SimpleCoffee.cs" />
+    <Compile Include="Structural\Decorator\Soy.cs" />
+    <Compile Include="Structural\Decorator\Whip.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -69,7 +78,6 @@
     <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\Factory\" />
     <Folder Include="Creational\SimpleFactory\" />
-    <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
