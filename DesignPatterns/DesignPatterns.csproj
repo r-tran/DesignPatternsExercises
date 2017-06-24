@@ -57,6 +57,13 @@
     <Compile Include="Behavioral\Strategy\DuckSim\IQuackBehavior.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\DuckTypes.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\QuackBehaviors.cs" />
+    <Compile Include="Creational\SimpleFactory\CheezePizza.cs" />
+    <Compile Include="Creational\SimpleFactory\ClamPizza.cs" />
+    <Compile Include="Creational\SimpleFactory\PepperoniPizza.cs" />
+    <Compile Include="Creational\SimpleFactory\Pizza.cs" />
+    <Compile Include="Creational\SimpleFactory\PizzaStore.cs" />
+    <Compile Include="Creational\SimpleFactory\SimplePizzaFactory.cs" />
+    <Compile Include="Creational\SimpleFactory\VeggiePizza.cs" />
     <Compile Include="Creational\Singleton\President.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,7 +84,6 @@
     <Folder Include="Creational\Abstract Factory\" />
     <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\Factory\" />
-    <Folder Include="Creational\SimpleFactory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
