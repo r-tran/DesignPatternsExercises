@@ -57,6 +57,42 @@
     <Compile Include="Behavioral\Strategy\DuckSim\IQuackBehavior.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\DuckTypes.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\QuackBehaviors.cs" />
+    <Compile Include="Creational\Abstract Factory\CheesePizza.cs" />
+    <Compile Include="Creational\Abstract Factory\ChicagoPizzaStore.cs" />
+    <Compile Include="Creational\Abstract Factory\ClamPizza.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\BlackOlives.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Abstract Classes\Cheese.cs" />
+    <Compile Include="Creational\Abstract Factory\ChicagoPizzaIngredientFactory.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Abstract Classes\Clam.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Abstract Classes\Dough.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\Eggplant.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\FreshClams.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\FrozenClam.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\Garlic.cs" />
+    <Compile Include="Creational\Abstract Factory\IPizzaIngredientFactory.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\MarinaraSauce.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\Mozzarella.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\Mushroom.cs" />
+    <Compile Include="Creational\Abstract Factory\NewYorkPizzaStore.cs" />
+    <Compile Include="Creational\Abstract Factory\NYPizzaIngredientFactory.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\Onion.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Abstract Classes\Pepperoni.cs" />
+    <Compile Include="Creational\Abstract Factory\Pizza.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\PlumTomatoSauce.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\ReggianoCheese.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Abstract Classes\Sauce.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\SlicedPepperoni.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\Spinach.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\ThickCrustDough.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Concrete Classes\ThinCrustDough.cs" />
+    <Compile Include="Creational\Abstract Factory\Ingredient Abstract Classes\Veggies.cs" />
+    <Compile Include="Creational\Abstract Factory\PizzaStore.cs" />
+    <Compile Include="Creational\Factory\ChicagoPizzaStore.cs" />
+    <Compile Include="Creational\Factory\ChicagoStyleCheesePizza.cs" />
+    <Compile Include="Creational\Factory\NewYorkPizzaStore.cs" />
+    <Compile Include="Creational\Factory\NewYorkStyleCheesePizza.cs" />
+    <Compile Include="Creational\Factory\Pizza.cs" />
+    <Compile Include="Creational\Factory\PizzaStore.cs" />
     <Compile Include="Creational\SimpleFactory\CheezePizza.cs" />
     <Compile Include="Creational\SimpleFactory\ClamPizza.cs" />
     <Compile Include="Creational\SimpleFactory\PepperoniPizza.cs" />
@@ -81,9 +117,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Creational\Abstract Factory\" />
     <Folder Include="Creational\Builder\" />
-    <Folder Include="Creational\Factory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

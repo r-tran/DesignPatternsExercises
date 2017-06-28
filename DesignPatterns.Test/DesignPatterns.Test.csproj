@@ -51,7 +51,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AbstractFactoryTests.cs" />
     <Compile Include="DecoratorTests.cs" />
+    <Compile Include="FactoryTests.cs" />
     <Compile Include="ObserverTests.cs" />
     <Compile Include="SimpleFactoryTests.cs" />
     <Compile Include="SingletonTests.cs" />
