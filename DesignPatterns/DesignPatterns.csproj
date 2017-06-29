@@ -44,6 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Command\CeilingFan.cs" />
+    <Compile Include="Behavioral\Command\CeilingFanHighCommand.cs" />
+    <Compile Include="Behavioral\Command\CeilingFanOffCommand.cs" />
+    <Compile Include="Behavioral\Command\GarageDoor.cs" />
+    <Compile Include="Behavioral\Command\GarageDoorCloseCommand.cs" />
+    <Compile Include="Behavioral\Command\GarageDoorOpenCommand.cs" />
+    <Compile Include="Behavioral\Command\ICommand.cs" />
+    <Compile Include="Behavioral\Command\Light.cs" />
+    <Compile Include="Behavioral\Command\LightOffCommand.cs" />
+    <Compile Include="Behavioral\Command\LightOnCommand.cs" />
+    <Compile Include="Behavioral\Command\MacroCommand.cs" />
+    <Compile Include="Behavioral\Command\NoCommand.cs" />
+    <Compile Include="Behavioral\Command\RemoteControl.cs" />
     <Compile Include="Behavioral\Observer\CurrentConditionsDisplay.cs" />
     <Compile Include="Behavioral\Observer\ForecastDisplay.cs" />
     <Compile Include="Behavioral\Observer\IDisplay.cs" />
