@@ -10,7 +10,7 @@ namespace DesignPatterns.Behavioral.Command
     {
         private ICommand[] _onCommands;
         private ICommand[] _offCommands;
-        private ICommand _undoCommand; 
+        private Stack<ICommand> _undoCommand; 
         private const int NumberOfSlots = 7;
 
         public RemoteControl()
@@ -24,7 +24,8 @@ namespace DesignPatterns.Behavioral.Command
                 _offCommands[i] = new NoCommand();
             }
 
-            _undoCommand = new NoCommand();
+            _undoCommand = new Stack<ICommand>();
+            _undoCommand.Push(new NoCommand());
         }
 
         public override string ToString()
@@ -48,18 +49,19 @@ namespace DesignPatterns.Behavioral.Command
         public void ClickButtonOn(int slot)
         {
             _onCommands[slot].Execute();
-            _undoCommand = _onCommands[slot];
+            _undoCommand.Push(_onCommands[slot]);
         }
 
         public void ClickButtonOff(int slot)
         {
             _offCommands[slot].Execute();
-            _undoCommand = _offCommands[slot];
+            _undoCommand.Push(_offCommands[slot]);
         }
 
         public void UndoButtonClick()
         {
-            _undoCommand.Undo();
+            var prevAction = _undoCommand.Pop();
+            prevAction.Undo();
         }
     }
 }

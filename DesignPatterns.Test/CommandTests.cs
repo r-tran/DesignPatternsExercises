@@ -92,5 +92,22 @@ namespace DesignPatterns.Test
             control.ClickButtonOff(0);
             control.UndoButtonClick();
         }
+
+        [TestMethod]
+        public void RemoteControl_TestLambdaCommands()
+        {
+            RemoteControl control = new RemoteControl();
+            GarageDoor door = new GarageDoor();
+
+            Command<GarageDoor> openDoor = new Command<GarageDoor>(door,
+                g => g.Up(), g => g.Down());
+            Command<GarageDoor> closeDoor = new Command<GarageDoor>(door,
+                g => g.Down(), g => g.Up());
+
+            control.SetCommand(0, openDoor, closeDoor);
+            control.ClickButtonOn(0);
+            control.ClickButtonOff(0);
+            control.UndoButtonClick();
+        }
     }
 }

@@ -47,6 +47,7 @@
     <Compile Include="Behavioral\Command\CeilingFan.cs" />
     <Compile Include="Behavioral\Command\CeilingFanHighCommand.cs" />
     <Compile Include="Behavioral\Command\CeilingFanOffCommand.cs" />
+    <Compile Include="Behavioral\Command\Command.cs" />
     <Compile Include="Behavioral\Command\GarageDoor.cs" />
     <Compile Include="Behavioral\Command\GarageDoorCloseCommand.cs" />
     <Compile Include="Behavioral\Command\GarageDoorOpenCommand.cs" />
