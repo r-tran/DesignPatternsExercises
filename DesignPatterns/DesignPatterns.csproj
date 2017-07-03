@@ -71,6 +71,9 @@
     <Compile Include="Behavioral\Strategy\DuckSim\IQuackBehavior.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\DuckTypes.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\QuackBehaviors.cs" />
+    <Compile Include="Behavioral\Template\CaffeineBeverageWithHook.cs" />
+    <Compile Include="Behavioral\Template\CoffeWithHook.cs" />
+    <Compile Include="Behavioral\Template\TeaWithHook.cs" />
     <Compile Include="Creational\Abstract Factory\CheesePizza.cs" />
     <Compile Include="Creational\Abstract Factory\ChicagoPizzaStore.cs" />
     <Compile Include="Creational\Abstract Factory\ClamPizza.cs" />
@@ -145,7 +148,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\Template\" />
     <Folder Include="Creational\Builder\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

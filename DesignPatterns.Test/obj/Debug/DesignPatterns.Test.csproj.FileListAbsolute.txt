@@ -10,9 +10,7 @@ c:\users\rtran\documents\visual studio 2015\Projects\DesignPatterns\UnitTestProj
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\bin\Debug\DesignPatterns.Test.dll
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\bin\Debug\DesignPatterns.Test.pdb
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\bin\Debug\DesignPatterns.exe
-C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\bin\Debug\DesignPatterns.pdb
-C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.csprojResolveAssemblyReference.cache
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.dll
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.pdb
