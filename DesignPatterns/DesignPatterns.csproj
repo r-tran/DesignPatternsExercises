@@ -131,11 +131,21 @@
     <Compile Include="Structural\Decorator\SimpleCoffee.cs" />
     <Compile Include="Structural\Decorator\Soy.cs" />
     <Compile Include="Structural\Decorator\Whip.cs" />
+    <Compile Include="Structural\Facade\Subsystem classes\Amplifier.cs" />
+    <Compile Include="Structural\Facade\Subsystem classes\CdPlayer.cs" />
+    <Compile Include="Structural\Facade\Subsystem classes\DvdPlayer.cs" />
+    <Compile Include="Structural\Facade\HomeTheaterFacade.cs" />
+    <Compile Include="Structural\Facade\Subsystem classes\PopcornPopper.cs" />
+    <Compile Include="Structural\Facade\Subsystem classes\Projector.cs" />
+    <Compile Include="Structural\Facade\Subsystem classes\Screen.cs" />
+    <Compile Include="Structural\Facade\Subsystem classes\TheaterLights.cs" />
+    <Compile Include="Structural\Facade\Subsystem classes\Tuner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Behavioral\Template\" />
     <Folder Include="Creational\Builder\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
