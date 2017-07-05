@@ -58,6 +58,13 @@
     <Compile Include="Behavioral\Command\MacroCommand.cs" />
     <Compile Include="Behavioral\Command\NoCommand.cs" />
     <Compile Include="Behavioral\Command\RemoteControl.cs" />
+    <Compile Include="Behavioral\Iterator\DinerMenu.cs" />
+    <Compile Include="Behavioral\Iterator\DinerMenuIterator.cs" />
+    <Compile Include="Behavioral\Iterator\IIterator.cs" />
+    <Compile Include="Behavioral\Iterator\IMenu.cs" />
+    <Compile Include="Behavioral\Iterator\MenuItem.cs" />
+    <Compile Include="Behavioral\Iterator\PancakeHouseIterator.cs" />
+    <Compile Include="Behavioral\Iterator\Waitress.cs" />
     <Compile Include="Behavioral\Observer\CurrentConditionsDisplay.cs" />
     <Compile Include="Behavioral\Observer\ForecastDisplay.cs" />
     <Compile Include="Behavioral\Observer\IDisplay.cs" />
@@ -146,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="Behavioral\Iterator\PancakeHouseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Creational\Builder\" />

@@ -59,6 +59,7 @@
     <Compile Include="DecoratorTests.cs" />
     <Compile Include="FacadeTests.cs" />
     <Compile Include="FactoryTests.cs" />
+    <Compile Include="IteratorTests.cs" />
     <Compile Include="ObserverTests.cs" />
     <Compile Include="SimpleFactoryTests.cs" />
     <Compile Include="SingletonTests.cs" />
