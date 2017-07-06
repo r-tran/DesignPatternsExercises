@@ -14,3 +14,10 @@ C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatter
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.csprojResolveAssemblyReference.cache
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.dll
 C:\Users\rtran\Documents\Visual Studio 2015\Projects\DesignPatterns\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.pdb
+C:\Users\rtran\Source\Repos\DesignPatternsExercises\DesignPatterns.Test\bin\Debug\DesignPatterns.Test.dll
+C:\Users\rtran\Source\Repos\DesignPatternsExercises\DesignPatterns.Test\bin\Debug\DesignPatterns.Test.pdb
+C:\Users\rtran\Source\Repos\DesignPatternsExercises\DesignPatterns.Test\bin\Debug\DesignPatterns.exe
+C:\Users\rtran\Source\Repos\DesignPatternsExercises\DesignPatterns.Test\bin\Debug\DesignPatterns.pdb
+C:\Users\rtran\Source\Repos\DesignPatternsExercises\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.csprojResolveAssemblyReference.cache
+C:\Users\rtran\Source\Repos\DesignPatternsExercises\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.dll
+C:\Users\rtran\Source\Repos\DesignPatternsExercises\DesignPatterns.Test\obj\Debug\DesignPatterns.Test.pdb

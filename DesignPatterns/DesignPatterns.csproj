@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DesignPatterns</RootNamespace>
     <AssemblyName>DesignPatterns</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -132,6 +132,10 @@
     <Compile Include="Structural\Adapter\ITurkey.cs" />
     <Compile Include="Structural\Adapter\MallardDuck.cs" />
     <Compile Include="Structural\Adapter\WildTurkey.cs" />
+    <Compile Include="Structural\Composite\Menu.cs" />
+    <Compile Include="Structural\Composite\MenuComponent.cs" />
+    <Compile Include="Structural\Composite\MenuItem.cs" />
+    <Compile Include="Structural\Composite\Waitress.cs" />
     <Compile Include="Structural\Decorator\DarkRoast.cs" />
     <Compile Include="Structural\Decorator\Espresso.cs" />
     <Compile Include="Structural\Decorator\IBeverage.cs" />
