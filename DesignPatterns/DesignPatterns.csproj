@@ -72,6 +72,13 @@
     <Compile Include="Behavioral\Observer\IWeatherObservable.cs" />
     <Compile Include="Behavioral\Observer\StatisticsDisplay.cs" />
     <Compile Include="Behavioral\Observer\WeatherData.cs" />
+    <Compile Include="Behavioral\State\GumballMachine.cs" />
+    <Compile Include="Behavioral\State\GumballSoldState.cs" />
+    <Compile Include="Behavioral\State\GumballWinnerState.cs" />
+    <Compile Include="Behavioral\State\HasQuarterState.cs" />
+    <Compile Include="Behavioral\State\IGumballMachineState.cs" />
+    <Compile Include="Behavioral\State\NoQuarterState.cs" />
+    <Compile Include="Behavioral\State\OutOfGumballsState.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\Duck.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\FlyBehaviors.cs" />
     <Compile Include="Behavioral\Strategy\DuckSim\IFlyBehavior.cs" />
