@@ -62,6 +62,7 @@
     <Compile Include="FactoryTests.cs" />
     <Compile Include="IteratorTests.cs" />
     <Compile Include="ObserverTests.cs" />
+    <Compile Include="ProxyTests.cs" />
     <Compile Include="SimpleFactoryTests.cs" />
     <Compile Include="SingletonTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

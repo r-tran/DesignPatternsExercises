@@ -161,6 +161,9 @@
     <Compile Include="Structural\Facade\Subsystem classes\Screen.cs" />
     <Compile Include="Structural\Facade\Subsystem classes\TheaterLights.cs" />
     <Compile Include="Structural\Facade\Subsystem classes\Tuner.cs" />
+    <Compile Include="Structural\Proxy\IDoor.cs" />
+    <Compile Include="Structural\Proxy\LabDoor.cs" />
+    <Compile Include="Structural\Proxy\SecurityDoor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
