@@ -57,6 +57,7 @@
     <Compile Include="AdapterTests.cs" />
     <Compile Include="CommandTests.cs" />
     <Compile Include="CompositeTests.cs" />
+    <Compile Include="CompoundPatternsTests.cs" />
     <Compile Include="DecoratorTests.cs" />
     <Compile Include="FacadeTests.cs" />
     <Compile Include="FactoryTests.cs" />

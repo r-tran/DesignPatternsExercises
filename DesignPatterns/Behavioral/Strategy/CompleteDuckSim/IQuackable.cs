@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Structural.Proxy
+namespace DesignPatterns.Behavioral.Strategy.CompleteDuckSim
 {
-    public interface IDoor
+    public interface IQuackable
     {
-        void CloseDoor();
-        void OpenDoor();
+        void Quack();
     }
 }
- 
