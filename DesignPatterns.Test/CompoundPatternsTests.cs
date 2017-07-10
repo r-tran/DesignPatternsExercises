@@ -42,5 +42,60 @@ namespace DesignPatterns.Test
             
             Assert.AreEqual(2, QuackCounter.GetQuackCount());
         }
+
+        [TestMethod]
+        public void Compound_AbstractFactory()
+        {            
+            IDuckFactory counterFactory = new DuckCounterFactory();
+            IDuckFactory duckFactory = new DuckFactory();
+            IQuackable duck1 = counterFactory.CreateDuckCall();
+            IQuackable duck2 = counterFactory.CreateRubberDuck();
+            IQuackable duck3 = duckFactory.CreateMallardDuck();
+
+            duck1.Quack();
+            duck2.Quack();
+            duck3.Quack();
+
+            Assert.AreEqual(2, QuackCounter.GetQuackCount());
+        }
+
+        [TestMethod]
+        public void Compound_Composite()
+        {
+            DuckSimulator sim = new DuckSimulator();
+
+            Flock flockDucks = new Flock();
+            IDuckFactory duckFactory = new DuckFactory();            
+            flockDucks.Add(duckFactory.CreateMallardDuck());
+            flockDucks.Add(duckFactory.CreateMallardDuck());
+            flockDucks.Add(duckFactory.CreateMallardDuck());
+            flockDucks.Add(duckFactory.CreateMallardDuck());            
+            Flock flockRubberDucks = new Flock();
+            flockRubberDucks.Add(duckFactory.CreateRubberDuck());
+            flockRubberDucks.Add(duckFactory.CreateRubberDuck());
+            flockRubberDucks.Add(duckFactory.CreateRubberDuck());
+            flockDucks.Add(flockRubberDucks);
+
+            sim.Simulate(flockDucks);
+        }
+
+        [TestMethod]
+        public void Compound_Observer()
+        {
+            DuckSimulator sim = new DuckSimulator();            
+            Flock flockDucks = new Flock();            
+            IDuckFactory duckFactory = new DuckCounterFactory();
+
+            flockDucks.Add(duckFactory.CreateMallardDuck());
+            flockDucks.Add(duckFactory.CreateRubberDuck());
+            flockDucks.Add(duckFactory.CreateRedheadDuck());
+            flockDucks.Add(duckFactory.CreateDuckCall());
+            flockDucks.Add(new GooseAdapter(new Goose()));
+
+            flockDucks.RegisterObservers(new QuackologistObserver());
+
+            sim.Simulate(flockDucks);  
+            Assert.AreEqual(4, QuackCounter.GetQuackCount());          
+        }
     }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Behavioral.Strategy.CompleteDuckSim
 {
-    public interface IQuackable : IQuackObservable
+    public interface IQuackObserver
     {
-        void Quack();
+        void Update(IQuackable duck);
     }
 }
